@@ -1,0 +1,57 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+ol, ul { list-style:none; }
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+q:before, q:after { content:''; }
+abbr, acronym { border:0; }
+body, button, input, select, textarea { font:12px/1 Tahoma, Helvetica, Arial, "����", sans-serif; }
+.clearfix:after { visibility:hidden; clear:both; content:""; height:0; display:block; }
+.clearfix { zoom:1 }
+body { background:#f0f0f0 }
+#wrap { width:785px; height:600px; margin:0 auto; }
+#top { background:url(bg.jpg) no-repeat; height:235px; }
+#logo { display:block; height:46px; width:130px; text-indent:-9999px; float:left; }
+#navlink { float:right; height:46px; line-height:46px; width:500px; color:#818080; text-align:right; padding-right:10px; }
+#navlink a { cursor:pointer; color:#818080; text-decoration:none; }
+#banan { height:185px; position:relative; }
+#jieru, #jiechu { display:block; position:absolute; height:28px; width:115px; text-indent:-9999px; }
+#jieru { left:438px; top:121px; }
+#jiechu { left:631px; top:121px; }
+#latest { float:left; width:542px; margin-left:9px; }
+#center { margin-top:5px; }
+#center .ti { height:32px; line-height:32px; background:url(tb1.jpg) repeat-x; border-left:1px solid #e2e2e2; border-right:1px solid #e2e2e2; color:#4b4b4b; padding-left:5px; font-size:14px }
+#labox, #jishuanbox { border:1px solid #e2e2e2; background:#fff; padding:5px; height:290px; overflow:hidden }
+a:link { color: #1076D5; text-decoration: none; }
+.biao .biao-l { float: left; margin-right: 15px; width: 80px; }
+.img_b { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #D5E6ED; padding: 1px; }
+.interval { border-bottom: 1px dotted #E5E5E5; font-size: 12px; margin: 5px 0; }
+.biao-r { float: right; width: 430px; }
+.biao .t { color: #1076D5; }
+.biao .info { color: #6F787F; float: left; padding: 8px 0 5px; width: 130px; }
+.f_red { color: #FF0000; }
+.biao .info-2 { color: #6F787F; float: left; padding: 0 0 8px; width: 130px; }
+.biao .info-3 { color: #6F787F; float: left; padding: 0 0 8px; }
+.l { float: left; }
+.progressBar { border: 1px solid #D8DCDD; height: 11px; margin: 3px auto; overflow: hidden; padding: 1px; position: relative; width: 80px; }
+.progressBar div { background: url("http://www.renrendai.com/theme/default/images/progressBarBg.png") repeat-x scroll 0 0 transparent; color: #333333; display: block; float: left; height: 11px; line-height: 11px; position: relative; }
+#jishuan { float:left; margin-left:5px; width:220px }
+#jishuanbox { padding-left:15px; }
+#jishuanbox p { margin-top:10px; }
+.input100 { width: 100px; }
+.input70 { width: 70px; }
+input { font-family: tahoma; font-size: 12px; height: 21px; vertical-align: middle; }
+#jishuanbox div { margin-top:10px; }
+#bt { text-align:center; margin-top:10px; margin-bottom:20px; }
+.saveSettingBnt { background: url("http://www.renrendai.com/theme/default/images/saveSetting.png") no-repeat scroll 0 0 transparent; border: medium none; color: #FFFFFF; cursor: pointer; font-size: 14px; font-weight: 600; height: 28px; text-align: center; vertical-align: middle; width: 100px; }
+#result .l { float:none }
+#result p { width:auto!important }
+#rightTitls { float: right; position: relative; text-align: right; width: 100px; }
+#rightTitls LI { cursor: pointer; float: left; list-style-type: none; text-align: center; width: 25px; }
+#rightTitls LI A.current { color: #FFFFFF; display: block; font-size: 14px; font-weight: bold; overflow: hidden; position: relative; z-index: 10; }
+#rightTitls LI A { color: #333333; display: block; overflow: hidden; position: relative; z-index: 10; }
+#rightTitls LI.background { background: url("flagbg.gif") no-repeat scroll 0 0 transparent; height: 38px; position: absolute; z-index: 8; }
+#loading { position:absolute; left:240px; top:120px; width:66px; height:66px; background:#fff; }
+#error{ color:red;}
